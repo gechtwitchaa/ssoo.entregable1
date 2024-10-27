@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//ejercicio1 se declara la estructura arrayLenght que tiene tres campos, un array de enteros con capacidad para 10 valores, un entero que almacen el numero de elementos almacenados en el array y un entero que almacena la sumna de los elementos del array  
+//ejercicio1 se declara la estructura arrayLenght que tiene tres campos, un array de enteros con capacidad para 10 valores, un entero que almacen el numero de elementos almacenados en el array y un entero que almacena la sumna de los elementos del array
 typedef struct {
     int arrInt[10]; // Array de enteros con capacidad para 10 valores
     int arrSize; // Número de elementos almacenados en el array
@@ -67,7 +67,7 @@ int setElement(arrayLength_t *arr, int position, int value) {
     return 0;
 }
 
-//ejercicio8 en este ejercicio se implementa la funcion resetArr
+//ejercicio8 en este ejercicio se implementa la funcion resetArr para reiniciar el array 
 int resetArr(arrayLength_t *arr) {
     return initArray(arr);  // Reinicia el array usando initArray
 }
